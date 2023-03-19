@@ -7,7 +7,7 @@ message db "Learning is one of the best way to update human groth.........$"
 .code
 main proc
     mov ax,@data
-    mov ds,ax
+    mov ds,ax      ;  
     
     
     mov ah, 9
