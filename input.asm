@@ -5,19 +5,19 @@
 main proc
     mov ah,1
     int 21h
-    mov bl, al
+    mov bl, al ; bl contain 'al'
     
     mov ah,1
     int 21h
-    mov bh,al
+    mov bh,al ; bh contain 'al '
     
     
     mov ah,2
-    mov dl,bl
+    mov dl,bl ; display the bl
     int 21h
     
     mov ah,2
-    mov dl,bh
+    mov dl,bh ; display the bh
     int 21h
     
     
