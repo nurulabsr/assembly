@@ -2,19 +2,30 @@
 .stack 100h
 .data
 
-variablename db 9   ; variable value = 10
+variablename db 9   ; variable value = 10 
+var1 db ?
 .code 
 
 main proc
     mov ax, @data 
-    mov ds, ax
+    mov ds, ax   
+    
+    
+    ;----------Display variable value from---------------; 
     
     mov ah,2
     add variablename, 48  ;  48+9 = 57 = 9
     mov dl,variablename
-    int 21h    
+    int 21h      
+                                    
+                                    
+    ;-------Store value in variable from user -----; 
     
-    
+    mov ah, 1
+    int 21h
+    mov
+     
+    ;--------Exit from doss-------------;
     exit:
     mov ah, 4ch
     int 21h
