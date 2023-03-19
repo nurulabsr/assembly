@@ -10,7 +10,7 @@ main proc
     mov ds, ax
     
     mov ah,2
-    add variablename, 48
+    add variablename, 48  ;  48+9 = 57 = 9
     mov dl,variablename
     int 21h    
     
@@ -18,7 +18,8 @@ main proc
     exit:
     mov ah, 4ch
     int 21h
-    endp
+    endp 
+
  end main
 
 
