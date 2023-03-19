@@ -30,7 +30,7 @@ main proc
     int 21h
     mov dl, 13
     int 21h
-             ; take input from user
+             ; take input from user   bl bh cl
     mov ah,1
     int 21h
     mov cl, al
@@ -42,12 +42,37 @@ main proc
     int 21h
     mov dl,13
     int 21h
+
     
              ; Display the value
     
     mov ah,2
     mov dl, cl
+    int 21h    
+    
+    mov ah, 2
+    mov dl, 10
     int 21h
+    mov dl, 13
+    int 21h
+    
+    mov ah,1
+    int 21h
+    mov bh, al  
+    
+    mov ah,2
+    mov dl, 10
+    int 21h
+    mov dl, 13
+    int 21h
+    
+    
+    mov ah,2
+    mov dl, bh
+    int 21h
+    
+    
+    
     
     
  ;----------------------------------------- End --------------------------------------------------------------;   
@@ -56,7 +81,7 @@ main proc
     int 21h
     main endp
 end main
-
+    
 
 
 
