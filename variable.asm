@@ -19,12 +19,19 @@ main proc
     int 21h      
                                     
                                     
-    ;-------Store value in variable from user -----; 
+    ;---------Store value in variable from user ------------; 
     
     mov ah, 1
     int 21h
-    mov
-     
+    mov var1, al
+    
+    ;-------- Display var1 value from user ----------;
+    mov ah, 2
+    mov dl,var1
+    int 21h
+    
+    
+    
     ;--------Exit from doss-------------;
     exit:
     mov ah, 4ch
