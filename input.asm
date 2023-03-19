@@ -3,11 +3,11 @@
 .code
 
 main proc
-    mov ah,1
+    mov ah,1   ; take input from user
     int 21h
     mov bl, al ; bl contain 'al'
     
-    mov ah,1
+    mov ah,1   ; take input from user
     int 21h
     mov bh,al ; bh contain 'al '
     
