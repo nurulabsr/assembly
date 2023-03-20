@@ -10,6 +10,10 @@
 * Beep Sound
 * Loop
 * Exit 
+* Jmp
+* Addtion
+* Subtraction
+* Add multiple number
 
 
 
