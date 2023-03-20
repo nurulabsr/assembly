@@ -24,10 +24,10 @@ main proc
     mov dl, "A"
     
     
-    level1:
+    level_0:
     int 21h
     inc dl
-    loop level1   
+    loop level_0   
     
    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; beef funny;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;          
                 
