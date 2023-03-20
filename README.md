@@ -1,5 +1,5 @@
 #### "assembly" 
-![picture alt](https://www.canva.com/design/DAFdty3DWEs/JuvvxXprNp_37KLVfY9Omw/edit?utm_content=DAFdty3DWEs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton "Title is optional")
+![https://www.canva.com/design/DAFdty3DWEs/JuvvxXprNp_37KLVfY9Omw/edit?utm_content=DAFdty3DWEs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](https://www.canva.com/design/DAFdty3DWEs/JuvvxXprNp_37KLVfY9Omw/edit?utm_content=DAFdty3DWEs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton "Title is optional")
 ##### _____________________________________ Topic Completed__________________________________________
 
 * String
