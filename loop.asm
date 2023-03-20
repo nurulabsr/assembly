@@ -27,7 +27,33 @@ main proc
     level1:
     int 21h
     inc dl
-    loop level1
+    loop level1   
+    
+   ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; beef funny;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;          
+                
+    mov ah,2
+    mov dl, 07
+    int 21h   
+    
+    mov ah, 2
+    mov dl, 07
+    int 21h
+    
+    mov ah,2
+    mov dl, 07
+    int 21h
+    
+    
+    mov ah, 2
+    mov dl, 07
+    int 21h
+    
+    mov ah, 2
+    mov dl, 07
+    int 21h
+    
+    
+    
     
     exit:
     mov ah,4ch
