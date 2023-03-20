@@ -40,7 +40,7 @@ main proc
     int 21h
     mov bl,al
     
-    
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;   Nothing
     mov ah,2
     mov dl, 07
     int 21h
@@ -55,16 +55,17 @@ main proc
     mov ah,9
     lea dx,result
     int 21h
-    
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;   Subtract
     
     sub cl,bl
     add cl, 48
     
     mov ah, 2
     mov dl, cl
-    int 21h
+    int 21h      
     
-   
+    
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;
     mov ah,2
     mov dl, 07
     int 21h 
