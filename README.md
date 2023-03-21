@@ -14,6 +14,7 @@
 * Addtion
 * Subtraction
 * Add multiple number
-
+* Upper case to lower case
+* lower case to uppper case
 
 
