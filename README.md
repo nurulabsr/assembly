@@ -1,7 +1,7 @@
 #### Assembly
 
-* <img src="./img/Screenshot_.png" alt="Alt text" title="ascii codes">
-* <img src="./img/Screenshot_01.png" alt="Alt text" title="Optional title">
+<img src="./img/Screenshot_.png" alt="Alt text" title="ascii codes">
+<img src="./img/Screenshot_01.png" alt="Alt text" title="Ascci codes">
 
 
 ##### _____________________________________________________ Topic Completed_______________________________________________________
