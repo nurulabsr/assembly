@@ -48,6 +48,19 @@ main proc
     
     mov ah, 2
     mov dl, var_2
+    int 21h      
+    
+    
+    mov ah,2
+    mov dl,07
+    int 21h  
+    
+     mov ah,2
+    mov dl,07
+    int 21h
+    
+     mov ah,2
+    mov dl,07
     int 21h
     
     exit:
