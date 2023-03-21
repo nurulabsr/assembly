@@ -1,8 +1,8 @@
 #### Assembly
 
 <img src="/img/Screenshot _.png" alt="Alt text" title="ascii codes">
-<img src="/img/Screenshot _01.png" alt="Alt text" title="Ascci codes">
-
+<!-- <img src="/img/Screenshot _01.png" alt="Alt text" title="Ascci codes"> -->
+![Ascci Codes](/img/Screenshot%20_01.png)
 
 ##### _____________________________________________________ Topic Completed_______________________________________________________
 
